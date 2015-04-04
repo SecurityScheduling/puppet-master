@@ -1,6 +1,7 @@
 node /puppet-client/ {
-    package {'vim':
-      ensure => present,
+    file{'motd':
+      path => '/etc/motd',
+      content => 'Welcome to your Puppet Lab',
     }
 }
 
