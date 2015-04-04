@@ -6,6 +6,7 @@ Vagrant.configure(2) do |config|
     master.vm.hostname = "puppet"
     master.vm.provision :shell, path: "puppet-repo.sh"
     master.vm.synced_folder "puppet/manifests", "/etc/puppet/manifests", type: "rsync", rsync__exlude: ".git/"
+    master.vm.synced_folder "puppet/modules", "/etc/puppet/modules", type: "rsync", rsync__exlude: ".git/"
   end
 
   config.vm.define "puppet-client" do |client|
