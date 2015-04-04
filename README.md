@@ -6,6 +6,8 @@ This is a puppet master test environment complete with a client.  This is used m
 
 puppet files go in puppet diectory:
 
+file | directory
+-----|------------
 manifests | puppet/manifests
 modules | puppet/modules
 
