@@ -1,1 +1,0 @@
-{"rsync":{"/etc/puppet/manifests":{"type":"rsync","rsync__exlude":".git/","guestpath":"/etc/puppet/manifests","hostpath":"/root/vagrant/puppet-master/puppet/manifests","disabled":false,"exlude":".git/","owner":"vagrant","group":"vagrant"}},"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/root/vagrant/puppet-master","disabled":false}}}
