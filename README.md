@@ -4,10 +4,10 @@ This is a puppet master test environment complete with a client.  This is used m
 
 ## Installation
 
-puppet files go in puppet diectory
+puppet files go in puppet diectory:
 
-manifests in puppet/manifests
-modules in puppet/modules
+manifests | puppet/manifests
+modules | puppet/modules
 
 to start simply run:
 
